@@ -1,25 +1,28 @@
-{
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+[
+  {
+    "id": 1,
+    "image": "https://images1.apartments.com/i2/SiKrgdx1gZiQ3IsstHYtQpEBvT-IL8aAk37iMWUvLTo/117/presidential-towers-chicago-il-building-photo.jpg",
+    "title": "Cozy Apartment",
+    "description": "A cozy apartment in the city center.",
+    "price": 100,
+    "location": "New York",
+    "bedrooms": 2,
+    "amenities": [
+      "WiFi",
+      "Parking"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images1.apartments.com/i2/dR2wcxeSyitSwkn2EDYMyAKa_cXD_thKVIAJi5QuImI/117/regents-park-chicago-il-diningliving-room.jpg",
+    "title": "Luxury Villa",
+    "description": "A luxurious villa with sea view.",
+    "price": 500,
+    "location": "Miami",
+    "bedrooms": 4,
+    "amenities": [
+      "Pool",
+      "WiFi"
+    ]
+  }
+]

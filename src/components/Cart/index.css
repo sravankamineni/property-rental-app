@@ -1,0 +1,158 @@
+.cart-cont {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 150px;
+    background-color: #232323;
+    color: #fff;
+    border-radius: 10px;
+    min-height: 110vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-top-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px 55px 0px;
+}
+.cart-head {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.mpty-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+}
+.mpty-msg{
+    font-size: 34px;
+}
+
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+
+.cart-item {
+    display: flex;
+    /* align-items: center; */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #232323;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 55px;
+}
+
+.cart-item-image {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px 0px 0px;
+    margin-right: 20px;
+}
+
+.cart-item-details {
+    flex: 1;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.cart-item-title {
+    font-size: 1.2rem;
+    /* color: #000; */
+    margin-bottom: 15px;
+}
+
+.cart-item-price {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.cart-item-quantity {
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+.quantity-changes{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+
+}
+.quantity-button {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 2px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.quantity {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0px 15px;
+}
+
+
+
+.cart-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    color: #fff;;
+}
+.price-span{
+    color: orange;
+    font: 1rem sans-serif;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+
+.cart-total {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
